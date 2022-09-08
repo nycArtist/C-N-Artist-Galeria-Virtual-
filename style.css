@@ -1,0 +1,140 @@
+*{
+    padding: 0;    
+    margin: 0;    
+    box-sizing: border-box;    
+    font-family: sans-serif;
+    
+}
+
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(155, 47, 177);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+   height: 50px;
+   margin-right: 10px; 
+}
+    
+@import url(https://fonts.googleapis.com/css?family=Raleway|Reenie+Beanie);
+
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(220, 170, 248);
+}
+html,
+body {
+  margin: 0.2px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: black;
+}
+
+button{
+  background-color:rgb(220, 170, 248);
+  border-radius: 7px;
+  border-color:rgb(220, 170, 258); 
+
+}
+
+.caption,
+h1,
+.date {
+  margin: 0;
+  text-align: center;
+}
+
+.caption,
+h1 {
+  font-family: "Reenie Beanie", sans-serif;
+  font-size: 2em;
+  padding: 10px 10px 0 10px;
+}
+
+.date {
+  font-size: 0.75em;
+}
+
+.description {
+  font-size: 0.9em;
+  padding: 0 20px 20px 20px;
+  text-align: left;
+}
+
+.container {
+  perspective: 1000px;
+  display: inline-block;
+  margin: 3%;
+}
+
+.container:hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.container,
+.front,
+.back {
+  width: 260px;
+  height: 410px;
+}
+
+.flipper {
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.front {
+  z-index: 2;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+#content {
+  text-align: center;
+}
+.navlink{
+  text-decoration: none;
+  
+}
+.xd{
+  text-decoration: none;
+  text-decoration-color: blue
+}
+.xx{
+  text-decoration-color: blue
+  position
+}

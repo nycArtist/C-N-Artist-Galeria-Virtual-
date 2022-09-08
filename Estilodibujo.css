@@ -1,0 +1,88 @@
+
+body{
+/*color del fondo de la pagina*/
+	background-size: 0%;
+	background-repeat: ;
+	background-position: ;
+	background: url(E:\proyectodegrado\x\imags/fondo.JPG);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(155, 47, 177);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+   height: 50px;
+   margin-right: 10px; 
+}
+
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+   height: 50px;
+   margin-right: 10px; 
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+.uno{
+	margin: 10px 60px;/*margenes*/
+	box-shadow: 0 4px 8px;
+	float: left;
+	width: auto;
+}
+
+div.uno:hover{
+	border: 4px;
+}
+
+.nose{
+	width: auto;
+	height: 520px;
+	background-size: 100%;
+	align-content: center;
+}
+.tres{
+	text-align: left;
+	font-family: currier;
+}
+
+.boton1{
+	width: 350px;
+	height: 500px;
+	background-size: 100%;
+	top: 10px;
+	left: 50px;
+	position: relative;
+	text-decoration: none;
+	font-family: currier;
+	font-size: 150%;
+	text-align: right;
+	font-weight:5;
+	text-align: left;	
+}
